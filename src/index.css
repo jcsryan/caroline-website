@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html,body { 
+  height:100%;
+  margin: 0; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+
+
+.body {
+  background-image: url(./components/Assets/background-option-1.jpg);
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.logo1 {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.navpic {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  min-height: 1vh;
+  text-decoration: none;
+}
+
+.nav-list {
+  margin-left: 10%;
+  margin-right: 80%;
+}
+
+.homepage-topbox {
+  text-align: center;
+  background-color: aliceblue;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.talk-center {
+  text-align: center;
+}
+
+.text {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: aliceblue;
+}
+
+.HIPAA {
+  max-height: 52px;
+  max-width: 52px;
+  background-color: aliceblue;
+}
+
+.BCBSMA {
+  max-width: 70px;
+  max-height: 70px;
+
+}
+
+.Photo1 {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.about-text {
+  background-color: aliceblue;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.education-text {
+  background-color: aliceblue;
+  margin-left: 5%;
+  margin-right: 5%;
 }

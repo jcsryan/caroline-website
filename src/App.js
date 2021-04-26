@@ -4,7 +4,7 @@ import About from './components/About/about';
 import Why from './components/Why/why';
 import Contact from './components/Contact/contact';
 import Main from './components/Main/main';
-
+import Foot from './components/Foot/foot';
 
 function App() {
   const [ currentPage, handlePageChange] = useState('Main')
@@ -24,22 +24,22 @@ function App() {
     }
   }
   return (
-    <div className="body">
+    <body className="body">
+      <div className="wrapper">
       <header className="header">
-      
       </header>
       <div className="navbar">
       <Navlist currentPage={currentPage} handlePageChange={handlePageChange}></Navlist>
      </div>
       <div class ="feather">
         {renderPage()}
-         <br></br>
-         <br></br>
-         <br></br>
+       
          
       </div>
-     
-    </div>
+      <div className="push"></div>
+      </div>
+     <Foot></Foot>
+    </body>
   );
 }
 
