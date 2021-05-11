@@ -2,7 +2,7 @@ import React from "react";
 import Logo from '../Assets/Logo 1 Transparent.png'
 
 function Navlist(props) {
-    const tabs = ['Main','Why', 'Get in Touch', 'About']
+    const tabs = ['Home','Why Telehealth', 'Contact', 'About Me']
     return(
         <div className="navpic">
         <img src={Logo} className="logo1"></img>

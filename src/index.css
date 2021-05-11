@@ -1,31 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 html,body { 
   height:100%;
   margin: 0; 
 }
 
+.Footer{
+  align-items: center;
+}
 
-.footer {
+.Footer-info {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
+  
+  background-color: #AFBDDB;
   text-align: center;
-  background-color: aliceblue;
+  height: 50px;
 }
 
 
 
 .body {
-  background-image: url(./components/Assets/background-option-1.jpg);
-   /* Full height */
-   height: 100%;
-
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+  background-color: ;
 }
 
 
@@ -37,44 +36,80 @@ html,body {
 .navpic {
   display: flex;
   flex-direction: row;
-  background-color: aqua;
+  background-color: #AFBDDB;
 }
 
 .navlist {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: end;
+  margin-left: 53%;
   list-style-type: none;
   min-height: 1vh;
-  text-decoration: none;
+  
 }
 
 .nav-list {
+  display: inline;
   margin-left: 10%;
-  margin-right: 80%;
+  margin-right: 20%;
+  margin-top: 8%
+}
+
+#nav-list-a {
+  display: inline-block;
+  background: none;
+	color: #002173;
+	border: none;
+  text-align: center;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  font-family: 'Tenor Sans', sans-serif;
+  font-weight: 800;
+}
+
+#nav-list-a:hover {
+  color: #024C75;
+}
+
+h1 {
+  color: #767a7c;
+}
+
+.mainpic {
+  width: 20%;
+  max-height: 300px;
+  background-size: cover;
+  background-position: center;
 }
 
 .homepage-topbox {
   text-align: center;
-  background-color: aliceblue;
   margin-left: 40%;
   margin-right: 40%;
+  font-family: 'Tenor Sans', sans-serif;
+  color: #767a7c;
 }
 
 .talk-center {
   text-align: center;
+  font-family: 'Tenor Sans', sans-serif;
+  color: #767a7c;
 }
 
 .text {
   margin-left: 10%;
   margin-right: 10%;
-  background-color: aliceblue;
+  font-family: 'Tenor Sans', sans-serif;
+  color: #767a7c;
 }
 
 .HIPAA {
   max-height: 52px;
   max-width: 52px;
-  background-color: aliceblue;
+  
 }
 
 .BCBSMA {
@@ -83,30 +118,48 @@ html,body {
 
 }
 
+.about-wrapper {
+  margin-left: 7%;
+  margin-right:7%;
+  margin-top: 100px;
+}
+
 .Photo1 {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 400px;
+  max-width: 400px;
+  float: left;
+  margin: 100px, 350px, 350px, 100px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+  margin-left: 7%;
 }
 
 .about-text {
-  background-color: aliceblue;
+  font-family: 'Tenor Sans', sans-serif;
+  color: #767a7c;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .education-text {
-  background-color: aliceblue;
+  font-family: 'Tenor Sans', sans-serif;
+  color: #767a7c;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .why-text {
-  background-color: aliceblue;
+  font-family: 'Tenor Sans', sans-serif;
+  color: #767a7c;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .contact-text {
-  background-color: aliceblue;
-  
+  color: #767a7c;
+}
+
+.contact-wrapper{
+  margin-left: 15%;
+  margin-right: 15%;
 }

@@ -1,9 +1,10 @@
 import React from "react";
+import beach from '../Assets/background-option-2.jpg';
 
 function Main() {
     return(
     <div className="homepage">
-        <div className="background">
+        <div className="background">   
         <div className="homepage-topbox">
             <p className="topbox">Schedule a free 15 minute <br></br> 
                telephone consultation <br></br>

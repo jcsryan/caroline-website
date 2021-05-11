@@ -11,13 +11,13 @@ function App() {
 
   const renderPage = () => {
     switch(currentPage) {
-      case 'Main':
+      case 'Home':
         return <Main/>
-     case 'Get in Touch':
+     case 'Contact':
         return <Contact/>;
-      case 'Why':
+      case 'Why Telehealth':
         return <Why/>;
-      case 'About' :
+      case 'About Me' :
         return <About/>;
       default:
         return <Main/>
@@ -38,6 +38,8 @@ function App() {
       </div>
       <div className="push"></div>
       </div>
+      <br></br>
+      <br></br>
      <Foot></Foot>
     </body>
   );
